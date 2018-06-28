@@ -12,7 +12,7 @@ git checkout -b deploy
 
 webpack -p
 
-git add -f public/bundle.js public/bundle.js.map public/bundle.css public/bundle.css.map
+git add -f public/bundle.js public/bundle.js.map public/style.css
 
 git commit --allow-empty -m 'Deploying'
 
